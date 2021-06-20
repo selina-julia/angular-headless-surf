@@ -1,4 +1,6 @@
 import { Component, VERSION } from '@angular/core';
+import { SurfboardService} from './shared/surfboard-service'
+import { Surfboard } from './shared/surfboard';
 
 @Component({
   selector: 'my-app',
